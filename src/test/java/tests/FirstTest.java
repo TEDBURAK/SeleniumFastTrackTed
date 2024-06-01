@@ -18,6 +18,7 @@ public class FirstTest {
         Thread.sleep(2000);
         driver.get("https://www.amazon.com");
 
+
         // navigate back
         Thread.sleep(2000);
         driver.navigate().back();
@@ -32,6 +33,7 @@ public class FirstTest {
 
         // get title
         System.out.println("driver.getTitle() = " + driver.getTitle());
+
 
         // get current url
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());

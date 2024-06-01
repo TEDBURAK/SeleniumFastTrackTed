@@ -17,11 +17,11 @@ public class UploadTest {
         driver.get("https://practice.cydeo.com/upload");
 
         // 2. upload file to page
-        uploadPage.chooseButton.sendKeys("C:/Users/Zulpikar/Downloads/test.txt");
+        uploadPage.chooseButton.sendKeys("C:/Users/Tarik/Downloads/hello.txt");
         uploadPage.uploadButton.click();
 
         // 3. verfiy file name 'test' is displayed
-        Assert.assertTrue(uploadPage.file.getText().contains("test"));
+        Assert.assertTrue(uploadPage.file.getText().contains("hello"));
 
     }
 }
