@@ -59,5 +59,5 @@ public class ActionsPage {
     public WebElement homeLink;
 
     @FindBy(linkText = "Home")
-    public WebElement deneme;
+    public WebElement deneme1;
 }
